@@ -56,3 +56,37 @@ Example: When writing in `InputController`, the comments are as follows:
 
     ...
 ```
+### 1.3 Accessor Priority ( Functions )
+Accessors have their own priorities.
+This section is the guidelines on how to order your functions based off of the accessor types.
+The order is as follows:
+1. Unity built-in functions (Start,Awake etc..)
+2. Public functions
+3. Protected Functions
+4. Private Functions
+Example:
+```c#
+  ...
+
+  private void Awake
+  {
+  ...
+  }
+
+  public void PublicFunc()
+  {
+  ...
+  }
+
+  protected void ProtectedFunc()
+  {
+  ...
+  }
+
+  private void PrivateFunc()
+  {
+  ...
+  }
+
+  ...
+```
