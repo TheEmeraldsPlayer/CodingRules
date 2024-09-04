@@ -21,7 +21,7 @@ Example: When creating class `InputController`, the brief summary is as follows:
 ```
 ### 1.2 Code Commenting
 Please comment your code on what you are doing, especially for really complicated code that takes in references from elsewhere.
-Try to comment all functions usages that are not Unity built-in, especially those that may seem ambigiuous
+Try to comment all functions usages that are not Unity built-in, especially those that may seem ambigiuous.
 Example: When writing in `InputController`, the comments are as follows:
 ```c#
     ...
