@@ -125,3 +125,14 @@ VeryVeryVeryVeryLongFunction(VeryVeryVeryVeryLongVariable).VeryVeryVeryVeryLongA
 VeryVeryVeryVeryLongFunction(VeryVeryVeryVeryLongVariable).VeryVeryVeryVeryLongAttirbute
  = VeryVeryVeryVeryLongVariable;
 ```
+## 2. Github Rules
+### 2.1 Branching out
+Once you start branching out into your own branches, do take note of the naming of the branch so that it is easier to identify certain branches.
+It makes tracking of projects easier (in case a rollback is required).
+The formatting of the branches is as follows:
+
+**VERSION_NAME_DATE(DD/MM/YYYY)_BRANCHNUM**
+
+Wrong: `my_branch`
+
+Correct: `1_User_05092024_1`
