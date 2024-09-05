@@ -90,3 +90,26 @@ Example:
 
   ...
 ```
+### 1.4 Accessor Priority ( Variables )
+Accessors have their own priorities.
+This section is the guidelines on how to order your variables based off of the accessor types.
+The order is as follows:
+1. SerializeField
+2. Public Variables
+3. Protected Variables
+4. Private Variables
+Example:
+```c#
+...
+
+[SerializeField] private int variable;
+
+public float health;
+
+protected bool hasInit;
+
+private int selfTimer;
+
+...
+```
+   
