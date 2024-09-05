@@ -1,5 +1,5 @@
 # Duality Code Conventions
-## Last Updated: 4/9/24
+## Last Updated: 5/9/24
 **This readme is to standardise the project. Please adhere to the rules that this project applies to and fix any errors you come across. In the event that you feel a certain rule should be changed/omitted, please propose it to the owner to consider changes.**
 ## 1. Script Rules
 ### 1.1 Class Summaries
@@ -112,4 +112,16 @@ private int selfTimer;
 
 ...
 ```
-   
+### 1.5 Line limit
+Lines that get too long will be hard to read in one shot.
+Industry standards are around 80 characters per line, but I'm more lenient and increase the limit to 120 characters per line.
+Move the overflowing characters to the next line and add an indent to it.
+Example:
+```c#
+// This is wrong!!
+VeryVeryVeryVeryLongFunction(VeryVeryVeryVeryLongVariable).VeryVeryVeryVeryLongAttirbute = VeryVeryVeryVeryLongVariable;
+
+//This is correct!!
+VeryVeryVeryVeryLongFunction(VeryVeryVeryVeryLongVariable).VeryVeryVeryVeryLongAttirbute
+ = VeryVeryVeryVeryLongVariable;
+```
