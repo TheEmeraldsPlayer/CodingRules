@@ -42,12 +42,6 @@ Example: When writing in `InputController`, the comments are as follows:
         instance = this;
     }
 
-    //Checks if input is pressed
-    public bool IsAxisPressed(string axis)
-    {
-        return (Input.GetAxis(axis) != 0);
-    }
-
     //Checks if input is held
     public bool IsAxisHeld(string axis)
     {
@@ -68,7 +62,7 @@ Example:
 ```c#
   ...
 
-  private void Awake
+  private void Awake()
   {
   ...
   }
