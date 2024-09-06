@@ -149,3 +149,7 @@ There are possible solutions to this if you want to go around this problem.
 1. Just wait for the other person to push their changes and privately pull from their branch to continue modifying the script
 2. Just tell them what to do on their side of the computer or code it in their computer (if both of you are physically there)
 
+### 2.4 Main
+Main must ALWAYS be a working verison of the game in case of sudden rollbacks. Don't ever merge main with the latest version if it is not working!!
+This is very important please note this!!
+If main was thought to be working but ran into a crash halfway during playtesting, ALWAYS revert back to the original, and figure out the problem from a different branch.
