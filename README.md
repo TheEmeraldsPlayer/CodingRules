@@ -1,5 +1,5 @@
 # Project Rules
-## Last Updated: 5/9/24
+## Last Updated: 6/9/24
 **This readme is to standardise the project. Please adhere to the rules that this project applies to and fix any errors you come across. In the event that you feel a certain rule should be changed/omitted, please propose it to the owner to consider changes.**
 ## 1. Script Rules
 ### 1.1 Class Summaries
