@@ -142,3 +142,10 @@ The format of the commits is as follows:
 Wrong: `Committed`
 
 Correct: `Updated InputController, Added Button Pressed Function, Minor Bug fixes to Chatbox`
+
+### 2.3 Files Committed
+I know this is common sense, but please make sure with others that you are not modifying the same script with them, or else you will have merge conflicts.
+There are possible solutions to this if you want to go around this problem.
+1. Just wait for the other person to push their changes and privately pull from their branch to continue modifying the script
+2. Just tell them what to do on their side of the computer or code it in their computer (if both of you are physically there)
+
