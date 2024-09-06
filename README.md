@@ -5,6 +5,7 @@
 ### 1.1 Class Summaries
 Every class that is created should have a brief summary on what it does, to give the reader a quick rundown/refresher on what it does.
 Please make sure that the summary can be readable at a glance and make new lines if the line is too long.
+OPTIONAL: If you want to leave some sort of date of signature or additional information behind on the summary you can do it.
 Example: When creating class `InputController`, the brief summary is as follows:
 ```c#
   ...
@@ -13,6 +14,8 @@ Example: When creating class `InputController`, the brief summary is as follows:
   /// InputController will handle ALL inputs from any source.
   /// If any scripts requires an input,
   /// it will go through input controller (unless it is a button)
+  /// Made by SomeGuy on 5/9/24
+  /// Last updated by AnotherGuy on 6/9/24
   /// </summary>
   public class InputController : MonoBehaviour
   {
