@@ -130,3 +130,15 @@ The formatting of the branches is as follows:
 Wrong: `my_branch`
 
 Correct: `1_User_05092024_1`
+
+### 2.2 Commit Messages
+Commit messages are important to know what was change during that commit. Try to make small commits at a time.
+In the event there are other files committed along with the main file, just label it as "Minor Updates"
+Importing Assets can just be labelled as what you imported inside
+The format of the commits is as follows:
+
+**ACTION FILECHANGED, DESCRIPTION, OTHERS**
+
+Wrong: `Committed`
+
+Correct: `Updated InputController, Added Button Pressed Function, Minor Bug fixes to Chatbox`
