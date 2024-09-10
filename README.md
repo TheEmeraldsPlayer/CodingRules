@@ -116,10 +116,10 @@ Move the overflowing characters to the next line and add an indent to it.
 Example:
 ```c#
 // This is wrong!!
-VeryVeryVeryVeryLongFunction(VeryVeryVeryVeryLongVariable).VeryVeryVeryVeryLongAttirbute = VeryVeryVeryVeryLongVariable;
+VeryVeryVeryVeryLongFunction(VeryVeryVeryVeryLongArgument).VeryVeryVeryVeryLongAttribute = VeryVeryVeryVeryLongVariable;
 
 //This is correct!!
-VeryVeryVeryVeryLongFunction(VeryVeryVeryVeryLongVariable).VeryVeryVeryVeryLongAttirbute
+VeryVeryVeryVeryLongFunction(VeryVeryVeryVeryLongArgument).VeryVeryVeryVeryLongAttribute
  = VeryVeryVeryVeryLongVariable;
 ```
 ## 2. Github Rules
